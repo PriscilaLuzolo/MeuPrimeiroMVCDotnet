@@ -10,7 +10,7 @@ namespace MeuPrimeiroMVC.Controllers
     {
         // Criair uma referência (instância) sobre a comunicação do meu banco de dados
 
-        ProjetoTesteContext context = new ProjetoTesteContext();
+            ProjetoTesteContext context = new ProjetoTesteContext();
         public IActionResult Index()
         {
             // .Include () - trago os dados das tabelas relacionadas
